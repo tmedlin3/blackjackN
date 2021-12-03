@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Blackjack</string>
+    <string name="bet">Place Bet below $20 available</string>
+    <string name="crap">Let\'s Play Blackjack</string>
+    <string name="funds">Add Funds</string>
+    <string name="rule">Game Rules</string>
+
+    <string name="first">1. A player rolls two dice that has six faces(1-6).
+        After the dicehave come to rest, the sum of the spots on the two top
+        faces is calculated</string>
+    <string name="second">2. The first roll is the "come out roll</string>
+    <string name="trois">3. Player continues to roll until a point is made</string>
+    <string name="four">4. Player can buy and bet as much as they have</string>
+    <string name="five">5. Player loses by rolling a 7 before rolling the point</string>
+
+
+</resources>

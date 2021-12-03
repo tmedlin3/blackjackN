@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!---<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home">-->
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background"
+        android:gravity="center"
+        android:padding="20dp"
+        >
+        <com.google.android.gms.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            ads:adSize="BANNER"
+            ads:adUnitId="ca-app-pub-3940256099942544/6300978111">
+        </com.google.android.gms.ads.AdView>
+        <TextView
+            android:id="@+id/start_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="40dp"
+            android:fontFamily="sans-serif-black"
+            android:gravity="center"
+            android:text="@string/crap"
+            android:textColor="@color/white"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+        <!--<TextView
+            android:id="@+id/textview1"
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            android:text="@string/funds"
+            android:textSize="18sp" />-->
+
+
+        <TextView
+            android:id="@+id/buy_in_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/start_title"
+            android:layout_centerHorizontal="true"
+            android:text="Enter your buy-in below"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:id="@+id/buy_in_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/buy_in_label"
+            android:layout_centerHorizontal="true"
+            android:layout_marginVertical="15dp"
+            android:background="#ffffff">
+
+            <!---<EditText
+                android:id="@+id/editText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number" />-->
+
+            <EditText
+                android:id="@+id/editText"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:hint="Enter a number"
+                android:importantForAutofill="no"
+                android:inputType="numberSigned"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/start"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/buy_in_textview"
+            android:text="Start Game"
+            android:textSize="20dp"
+            android:background="@drawable/btn_bg"
+            />
+
+        <!---<Button
+            android:id="@+id/start"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/buy_in_textview"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/btn_bg"
+            android:onClick="startGame"
+            android:padding="12dp"
+            android:text="Start Game"
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/rules_button"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/start_button"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/btn_bg"
+            android:gravity="center"
+            android:onClick="gameRules"
+            android:padding="12dp"
+            android:text="@string/rules"
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+-->
+
+    </RelativeLayout>
+
+
+    <!---<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="72dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:text="@string/crap"
+            android:textColor="#000"
+            android:textSize="24sp"
+            tools:ignore="HardcodedText,MissingConstraints" />
+
+
+    </LinearLayout>-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+<!---</ScrollView>-->
