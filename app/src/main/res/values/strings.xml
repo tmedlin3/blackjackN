@@ -12,6 +12,12 @@
     <string name="trois">3. Player continues to roll until a point is made</string>
     <string name="four">4. Player can buy and bet as much as they have</string>
     <string name="five">5. Player loses by rolling a 7 before rolling the point</string>
-
+    <string-array name="currency">
+        <item> USD</item>
+        <item> GBP</item>
+        <item> EURO</item>
+        <item> PESO</item>
+        <item> YEN</item>
+    </string-array>
 
 </resources>

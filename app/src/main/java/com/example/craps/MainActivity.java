@@ -25,12 +25,7 @@ import com.google.android.gms.ads.initialization.OnInitializationCompleteListene
 
 import java.security.KeyPairGenerator;
 import java.util.Random;
-/*
-Ryan Medlin
-Klarelle Kanyama
-Bryan Shulkin
-Ben Perkins
- */
+
 public class MainActivity extends AppCompatActivity {
     public Button button;
     ImageView user1, user2, user3, user4, house1, house2, house3, house4;
